@@ -5,7 +5,7 @@ require_once 'Dentista.php';
 class DentistaContratado extends Dentista {
     private string $salario;  
 
-    public function __construct(string $nome, string $rg, string $cpf, string $email, string $telefone, string $cro, string $especialidade, float $salario) {
+    public function __construct(string $nome, string $rg, string $cpf, string $email, string $telefone, string $cro, array $especialidade, float $salario) {
       parent::__construct($nome, $rg, $cpf, $email, $telefone, $cro, $especialidade);
       $this->setSalario($salario);
     }
@@ -16,7 +16,7 @@ class DentistaContratado extends Dentista {
       return $this->salario;
   }
   static public function getFilename() {
-      return "DentistaContratado.php";
+      return "DentistaParceiro.php";
   }
 
 }

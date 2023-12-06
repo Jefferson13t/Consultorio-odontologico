@@ -8,12 +8,15 @@ class Perfil extends persist{
     private string $senha;
     private Pessoa $usuario;
     private int $nivel;
+    private bool $isLogged;
 
     public function __construct(string $login,string $senha, Pessoa $usuario, int $nivel) {
         $this->setLogin($login);
         $this->setSenha($senha);
         $this->setUsuario($usuario);
         $this->setNivel($nivel);
+        $this->isLogged = false;
+
     }
     public function setLogin(string $login){
         $this->login = $login;
@@ -39,6 +42,13 @@ class Perfil extends persist{
     public function getNivel(){
         return $this->nivel;	
     }
+    public function setIsLogged(){
+        $this->isLogged = !$this->isLogged;
+    }
+    public function getIsLogged():bool{
+        return (bool) $this->isLogged;
+    }
+
       static public function getFilename() {
       return "Perfil.php";
     }

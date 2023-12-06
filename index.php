@@ -3,9 +3,9 @@
     <title>PHP Test</title>
   </head>
   <body>
+    <div>header</div>
     <?php 
 include_once("../global.php");
-
 
 
 ?> 

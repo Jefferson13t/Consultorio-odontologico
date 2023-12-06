@@ -78,5 +78,3 @@ class Data extends Persist
 }
 
 $agora = new DateTime('now');
-
-var_dump($agora);
