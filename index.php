@@ -1,20 +1,37 @@
+    <?php 
+
+    require_once "./view/clients.php";
+    require_once "./view/dentists.php";
+    require_once "./view/appointment.php";
+    require_once "./view/admin.php";
+
+      $pages = ["consultas"=> "", "clientes"=>"", "dentistas"=>"", "administrativo"=>""];
+
+      $pages["clientes"] = $clients;
+      $pages["dentistas"] = $dentists;
+      $pages["consultas"] = $appointment;
+      $pages["administrativo"] = $admin;
+
+    ?> 
 <html>
   <head>
     <title>PHP Test</title>
+    <link rel="stylesheet" href="./view/style.css?v=<?php echo filemtime('./view/style.css'); ?>">
   </head>
   <body>
-    <div>header</div>
-    <?php 
-include_once("../global.php");
+    <header class="header">
+      <img src="./view/assets/dentinho.svg" alt="imagem do dentinho" />
+      <?php
+      $menu =  '';
+      foreach($pages as $key => $value){
+        $menu  .= '<a class="menu-item" href="?page=' . $key .'">'.ucfirst($key). '</a>';
+      }
+      echo '<div class="menu">' . $menu . '</div>';
+    ?></header>
+    <?php
+      $pageIndex = (isset($_GET['page']) ? $_GET['page'] : 'admin');
+      echo $pages[$pageIndex];
+      ?>
 
-
-?> 
-
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
   </body>
 </html>

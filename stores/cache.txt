@@ -1,0 +1,13 @@
+{"document":"doc012","operation":"login","date":"15:46 - 14\/12\/2023"}
+{"document":"","operation":"logoff","date":"11:47 - 14\/12\/2023"}
+{"document":"de123","operation":"login","date":"11:47 - 14\/12\/2023"}
+{"document":"","operation":"logoff","date":"12:53 - 14\/12\/2023"}
+{"document":"","operation":"logoff","date":"13:19 - 14\/12\/2023"}
+{"document":"de123","operation":"login","date":"13:40 - 14\/12\/2023"}
+{"document":"","operation":"logoff","date":"13:40 - 14\/12\/2023"}
+{"document":"123","operation":"login","date":"13:40 - 14\/12\/2023"}
+{"document":"","operation":"logoff","date":"13:40 - 14\/12\/2023"}
+{"document":"de123","operation":"login","date":"13:40 - 14\/12\/2023"}
+{"document":"","operation":"logoff","date":"13:41 - 14\/12\/2023"}
+{"document":"123","operation":"login","date":"13:41 - 14\/12\/2023"}
+{"document":"","operation":"logoff","date":"13:43 - 14\/12\/2023"}

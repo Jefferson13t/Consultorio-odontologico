@@ -1,8 +1,6 @@
 <?php
 
-require_once "persist.php";
-
-class Data extends Persist
+class Date 
 {
     private int $dia;
     private int $mes;
@@ -67,14 +65,9 @@ class Data extends Persist
     {
         return $this->minuto;
     }
-    public function getData()
+    public function getDate()
     {
         return "{$this->getHora()}:{$this->getMinuto()} - {$this->getDia()}/{$this->getMes()}/{$this->getAno()}";
     }
-    static public function getFilename() {
-      return "Data.php";
-    }
 
 }
-
-$agora = new DateTime('now');
