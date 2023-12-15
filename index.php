@@ -20,6 +20,7 @@
   </head>
   <body>
     <header class="header">
+      <div class="header-menu">
       <img src="./view/assets/dentinho.svg" alt="imagem do dentinho" />
       <?php
       $menu =  '';
@@ -27,11 +28,12 @@
         $menu  .= '<a class="menu-item" href="?page=' . $key .'">'.ucfirst($key). '</a>';
       }
       echo '<div class="menu">' . $menu . '</div>';
-    ?></header>
+    ?>
+    </div>
+    </header>
     <?php
       $pageIndex = (isset($_GET['page']) ? $_GET['page'] : 'admin');
       echo $pages[$pageIndex];
       ?>
-
   </body>
 </html>

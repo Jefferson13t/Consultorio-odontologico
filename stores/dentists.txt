@@ -1,0 +1,5 @@
+{"name":"batata","document":"doc012","email":"batata@gmail.com","phone":"31999","payment":"R$ 1500","cro":"12","relation":"contratado","specialty":["Clinica Geral","ortodontia"]}
+{"name":"Docinho","document":"de123","email":"docinho@gmail.com","phone":"35000","payment":"40%","cro":"13","relation":"parceiro","specialty":["estetica"]}
+{"name":"","document":"","email":"","phone":"","payment":"R$ ","cro":"","relation":"contratado","specialty":[""]}
+{"name":"","document":"","email":"","phone":"","payment":"R$ ","cro":"","relation":"contratado","specialty":[""]}
+{"name":"","document":"","email":"","phone":"","payment":"R$ ","cro":"","relation":"contratado","specialty":[""]}

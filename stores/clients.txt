@@ -1,0 +1,14 @@
+{"name":"Batata","document":"012","email":"bat@gmail.com","phone":"31999","payment":null}
+{"name":"","document":"","email":"","phone":"","payment":null}
+{"name":"","document":"","email":"","phone":"","payment":"cartao"}
+{"name":"","document":"","email":"","phone":"","payment":"Pix"}
+{"name":"","document":"","email":"","phone":"","payment":"Pix"}
+{"name":"","document":"","email":"","phone":"","payment":"Pix"}
+{"name":"","document":"","email":"","phone":"","payment":"Pix"}
+{"name":"","document":"","email":"","phone":"","payment":"Pix"}
+{"name":"","document":"","email":"","phone":"","payment":"Pix"}
+{"name":"","document":"","email":"","phone":"","payment":"Pix"}
+{"name":"","document":"","email":"","phone":"","payment":"Pix"}
+{"name":"","document":"","email":"","phone":"","payment":"Pix"}
+{"name":"","document":"","email":"","phone":"","payment":"Pix"}
+{"name":"","document":"","email":"","phone":"","payment":"Pix"}

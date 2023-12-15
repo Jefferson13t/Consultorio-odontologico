@@ -59,8 +59,8 @@ $logar = '
 
     <script>
         let permissao = sessionStorage.getItem("permissao");
-
         let loginButton = document.getElementById("loginButton");
+
         if (permissao == 1 || permissao == 0) {
             loginButton.value = "deslogar";
         } else {
@@ -71,7 +71,7 @@ $logar = '
 ';
 
 $criarPerfil = '
-<div >
+<div>
     <h1>Criar perfil</h1>
     <form class="card" method="POST" action="../Controller/profile.php">
         <h3>Dados</h3>
@@ -125,7 +125,7 @@ $criarProcedimento = '
 </div>
 ';
 
-$firstSection = '<section class="first-section">' . $logar . $criarPerfil . $criarProcedimento . '</section>';
+$firstSection = '<section class="first-section" >' . $logar . $criarPerfil . $criarProcedimento . '</section>';
 $secondSection =    '<section class="second-section">
                         <h1>Lista de Perfis</h1>
                         <div class="container"> ' . 

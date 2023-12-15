@@ -8,15 +8,24 @@
 <body>
 
     <div>
-        <h1>Criar perfil</h1>
+        <h1>Cadastrar novo cliente</h1>
         <form>
             <h3>Dados</h3>
-            <input name="name">
-            <input name="document">
-            <input name="password">
-            <input name="email">
-            <input name="phone">
+            <div>
+                <input type="radio" id="Pix" name="permission" value="Pix" checked />
+                <label for="Pix">Pix</label>
+                <input type="radio" id="cartao" name="permission" value="cartao" />
+                <label for="cartao">cartão</label>
+                <input type="radio" id="boleto" name="permission" value="boleto" />
+                <label for="boleto">Boleto</label>
             <input type="submit" value="Criar">
+            </div>
+            <div>
+                <input name="name" placeholder="Nome">
+                <input name="document" placeholder="Documento">
+                <input name="email" placeholder="Email">
+                <input name="phone" placeholder="Telefone">
+            </div>
         </form>
     </div>
 

@@ -26,10 +26,11 @@ fclose($openFile);
 
 if($document == false){
     echo '<script>';
-    echo 'sessionStorage.clear()';
+    echo ';sessionStorage.clear();';
     echo '</script>';
 } 
 
+if($document != false){
 $openFile = fopen($profiles, 'r');
 
 while($line = fgets($openFile)){
@@ -46,7 +47,7 @@ while($line = fgets($openFile)){
 } 
     
     fclose($openFile);
-
+}
     echo '<script>';
     echo 'window.location = "http://localhost/?page=administrativo"';
     echo '</script>';

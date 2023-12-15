@@ -17,7 +17,7 @@ class PartnerDentist extends Dentist
   {
     $this->commission = $commission;
   }
-  public function getCommisison()
+  public function getPayment()
   {
     return $this->commission;
   }

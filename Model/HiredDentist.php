@@ -12,7 +12,7 @@ class HiredDentist extends Dentist {
     public function setSalary(float $salary) {
       $this->salary = $salary;
  }
-  public function getSalary() {
+  public function getPayment() {
       return $this->salary;
   }
 }

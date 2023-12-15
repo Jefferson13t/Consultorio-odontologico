@@ -19,7 +19,7 @@ class Client extends Person {
     }
   }
   public function getPaymentForms(){
-    return $this->paymentForms;
+    return $this->paymentForms[0];
   }
 
 }
