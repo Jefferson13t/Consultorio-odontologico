@@ -1,14 +1,1 @@
-{"name":"Batata","document":"012","email":"bat@gmail.com","phone":"31999","payment":null}
-{"name":"","document":"","email":"","phone":"","payment":null}
-{"name":"","document":"","email":"","phone":"","payment":"cartao"}
-{"name":"","document":"","email":"","phone":"","payment":"Pix"}
-{"name":"","document":"","email":"","phone":"","payment":"Pix"}
-{"name":"","document":"","email":"","phone":"","payment":"Pix"}
-{"name":"","document":"","email":"","phone":"","payment":"Pix"}
-{"name":"","document":"","email":"","phone":"","payment":"Pix"}
-{"name":"","document":"","email":"","phone":"","payment":"Pix"}
-{"name":"","document":"","email":"","phone":"","payment":"Pix"}
-{"name":"","document":"","email":"","phone":"","payment":"Pix"}
-{"name":"","document":"","email":"","phone":"","payment":"Pix"}
-{"name":"","document":"","email":"","phone":"","payment":"Pix"}
-{"name":"","document":"","email":"","phone":"","payment":"Pix"}
+{"name":"Professor Utônio","document":"12998745634","email":"utonio@gmail.com","phone":"31 77777 7777","payment":"boleto"}

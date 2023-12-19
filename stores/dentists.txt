@@ -1,5 +1,2 @@
-{"name":"batata","document":"doc012","email":"batata@gmail.com","phone":"31999","payment":"R$ 1500","cro":"12","relation":"contratado","specialty":["Clinica Geral","ortodontia"]}
-{"name":"Docinho","document":"de123","email":"docinho@gmail.com","phone":"35000","payment":"40%","cro":"13","relation":"parceiro","specialty":["estetica"]}
-{"name":"","document":"","email":"","phone":"","payment":"R$ ","cro":"","relation":"contratado","specialty":[""]}
-{"name":"","document":"","email":"","phone":"","payment":"R$ ","cro":"","relation":"contratado","specialty":[""]}
-{"name":"","document":"","email":"","phone":"","payment":"R$ ","cro":"","relation":"contratado","specialty":[""]}
+{"name":"Dr Hans Chucrute","document":"12998745633","email":"chucrute@gmail.com","phone":"31 99999 9999","payment":"R$ 4500","cro":"000022215","relation":"contratado","specialty":["Clinica Geral","Ortodontia"]}
+{"name":"Dr House","document":"12998745644","email":"house@hotmail.com","phone":"31 88888 8888","payment":"40%","cro":"000022216","relation":"parceiro","specialty":["Clinica Geral","Estetica"]}

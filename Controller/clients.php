@@ -12,6 +12,10 @@ $payment = $_POST['payment'];
 
 $newClient = new Client($name, $document, $email, $phone, [$paymentForm]);
 
+$test = json_encode(array("client"=> $newClient,
+)
+) . "\r\n";
+
 $content = json_encode(array("name"=> $newClient->getName(),
  "document"=> $newClient->getDocument(),
  "email"=> $newClient->getEmail(),

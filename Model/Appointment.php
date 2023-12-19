@@ -15,7 +15,7 @@ class Appointment
   public function __construct(Patient $patient, Date $start, Dentist $responsibleDentist, array $procedure)
   {
     $this->setPatient($patient);
-    $this->setStart( $start);
+    $this->setStart($start);
     $this->setResponsibleDentist($responsibleDentist);
     $this->setProcedureList($procedure);
   }
@@ -31,7 +31,7 @@ class Appointment
   }
   public function setStart(Date $start)
   {
-    $this->start = $$start;
+    $this->start = $start;
   }
 
   public function getStart()

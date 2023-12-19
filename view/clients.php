@@ -41,10 +41,10 @@ foreach($content as $key => $value){
         <p>documento: <span>' . $value->document . '</span></p>
         <p>email: <span>' . $value->email . '</span></p>
         <p>telefone: <span>' . $value->phone . '</span></p>
-        <p>Responsável: <span>' . $value->phone . '</span></p>
+        <p>Responsável: <span>' . $value->clientDoc . '</span></p>
     </div>
 ';
-$patientList .= $clientCard;
+$patientList .= $patientCard;
 }
 
 fclose($openFile);
@@ -108,7 +108,7 @@ if (!(permissao == 1 || permissao == 0)) {
 
 $cadastrarPaciente = '
 <div>
-<h1>Cadastrar novo cliente</h1>
+<h1>Cadastrar novo Paciente</h1>
 <form class="card" method="POST" action="../Controller/patient.php">
     <div class="cliente">
         <div class="pagamento">

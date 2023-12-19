@@ -1,11 +1,1 @@
-{"name":"Batata","document":"doc012","email":"batata@gmail.com","phone":"031999","password":"bat012","level":1}
-{"name":"dentinho","document":"de123","email":"dentinho@gmail.com","phone":"0320000","password":"de123","level":1}
-{"name":"generico","document":"123","email":"123","phone":"123","password":"123","level":0}
-{"name":"123","document":"123","email":"123","phone":"2","password":"123","level":0}
-{"name":"","document":"","email":"","phone":"","password":"","level":1}
-{"name":"","document":"","email":"","phone":"","password":"","level":0}
-{"name":"","document":"","email":"","phone":"","password":"","level":0}
-{"name":"","document":"","email":"","phone":"","password":"","level":0}
-{"name":"","document":"","email":"","phone":"","password":"","level":0}
-{"name":"","document":"","email":"","phone":"","password":"","level":0}
-{"name":"","document":"","email":"","phone":"","password":"","level":0}
+{"name":"Batata","document":"doc123","email":"batata@gmail.com","phone":"031999","password":"doc123","level":1}

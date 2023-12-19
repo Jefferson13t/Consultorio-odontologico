@@ -15,10 +15,10 @@ foreach($content as $key => $value){
     $userCard = '
     <div class="card">
         <p>Nome: <span>' . $value->name . '</span></p>
-        <p>documento: <span>' . $value->document . '</span></p>
-        <p>email: <span>' . $value->email . '</span></p>
-        <p>telefone: <span>' . $value->phone . '</span></p>
-        <p>permissão: <span>' . $value->level . '</span></p>
+        <p>Documento: <span>' . $value->document . '</span></p>
+        <p>Email: <span>' . $value->email . '</span></p>
+        <p>Telefone: <span>' . $value->phone . '</span></p>
+        <p>Permissão: <span>' . $value->level . '</span></p>
     </div>
 ';
 $profileList .= $userCard;
@@ -37,7 +37,7 @@ $cacheList = '';
 foreach($content as $key => $value){
     $operationCard = '
     <div class="card">
-        <p>documento: <span>' . $value->document . '</span></p>
+        <p>Documento: <span>' . $value->document . '</span></p>
         <p>Data: <span>' . $value->date . '</span></p>
         <p>operação: <span>' . $value->operation . '</span></p>
     </div>
@@ -125,8 +125,11 @@ $criarProcedimento = '
 </div>
 ';
 
-$firstSection = '<section class="first-section" >' . $logar . $criarPerfil . $criarProcedimento . '</section>';
+$firstSection = '<section class="first-section" >' . $logar . $criarPerfil . '</section>';
 $secondSection =    '<section class="second-section">
+                        <div class="first-section"> '. 
+                        $criarProcedimento.'
+                        </div>
                         <h1>Lista de Perfis</h1>
                         <div class="container"> ' . 
                         $profileList . 

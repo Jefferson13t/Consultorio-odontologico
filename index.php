@@ -32,7 +32,7 @@
     </div>
     </header>
     <?php
-      $pageIndex = (isset($_GET['page']) ? $_GET['page'] : 'admin');
+      $pageIndex = (isset($_GET['page']) ? $_GET['page'] : 'administrativo');
       echo $pages[$pageIndex];
       ?>
   </body>

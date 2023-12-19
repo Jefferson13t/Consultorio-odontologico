@@ -67,7 +67,7 @@ class Date
     }
     public function getDate()
     {
-        return "{$this->getHora()}:{$this->getMinuto()} - {$this->getDia()}/{$this->getMes()}/{$this->getAno()}";
+        return "{$this->getDia()}/{$this->getMes()}/{$this->getAno()} - {$this->getHora()}:{$this->getMinuto()}";
     }
 
 }

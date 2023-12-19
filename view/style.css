@@ -17,7 +17,12 @@ input {
     border: none;
     border-radius: 3px;
 }
-
+select {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 2px;
+}
 .button {
     background-color: #003F41;
     color: white;
@@ -123,4 +128,26 @@ input {
     flex-direction: column;
     gap: 10px;
     width: 300px;
+}
+
+.container-simulate{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.simulate {
+    color: #000000;
+    padding: 5px 10px;
+}
+
+.lista-procedimentos {
+    padding: 5px 10px;
+    border: solid 1px #00000030;
+}
+
+.chache {
+    display: flex;
+    border-radius: 5px;
+    background-color: #EEEEEE;
 }
